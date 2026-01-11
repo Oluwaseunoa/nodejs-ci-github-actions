@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-ci-github-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oluwaseunoa/nodejs-ci-github-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Oluwaseunoa/nodejs-ci-github-actions/issues"
+  },
+  "homepage": "https://github.com/Oluwaseunoa/nodejs-ci-github-actions#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "globals": "^17.0.0",
+    "jest": "^30.2.0"
+  }
+}
