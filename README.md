@@ -16,7 +16,11 @@ This project demonstrates the practical implementation of Continuous Integration
 
 Continuous Integration is a core DevOps practice that enables developers to integrate code changes frequently while automatically validating functionality and quality. Without CI, defects are often detected late, leading to costly fixes and unstable releases. This project applies CI principles by automating linting, testing, and build validation using GitHub Actions.
 
+<<<<<<< HEAD
 The implementation aligns strictly with best practices of Implementing Continuous Integration with GitHub Actions, focusing on matrix builds and code quality enforcement.
+=======
+The implementation aligns strictly with **Module 3: Implementing Continuous Integration with GitHub Actions**, focusing on matrix builds and code quality enforcement.
+>>>>>>> 6bd228aa17336c94ee63078ef3dcf601c8db34e3
 
 ---
 
@@ -96,6 +100,7 @@ npm install --save-dev eslint jest
 ESLint was initialized and later updated to use the modern Flat Config with Node.js compatibility.
 
 ```js
+<<<<<<< HEAD
 import js from "@eslint/js";
 import globals from "globals";
 import { defineConfig } from "eslint/config";
@@ -129,6 +134,17 @@ export default defineConfig([
       },
     },
   },
+=======
+export default defineConfig([
+  {
+    files: ["**/*.js"],
+    languageOptions: {
+      sourceType: "module",
+      globals: { ...globals.node, ...globals.jest },
+    },
+    extends: ["js/recommended"],
+  },
+>>>>>>> 6bd228aa17336c94ee63078ef3dcf601c8db34e3
 ]);
 ```
 
