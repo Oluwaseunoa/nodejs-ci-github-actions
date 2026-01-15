@@ -154,10 +154,8 @@ npm test
 ---
 
 ## 6. Security Enhancement: GitHub Secrets Integration
-...
-
-**Note:** Screenshot for secret creation is missing from your list.  
-Consider taking a new one showing the "New repository secret" form.
+![Security Enhancement](./img/25b.github_secrets.png)
+>*Note secret integration is not used but it is a best practice where applicable*
 
 ---
 
